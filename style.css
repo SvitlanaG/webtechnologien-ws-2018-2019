@@ -2,29 +2,49 @@
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
+	font-family: Verdana;
 }
 
 header {
 	height: 150px;
-	background: red;
+	background: #999900;
+}
+
+h2 {
+	text-align: center;
+}
+
+a:link {
+	color: darkgreen;
+}
+a:visited {
+	color: darkolivegreen;
+}
+a:hover {
+	color: #223300;
+}
+a:active {
+	color: orange;
 }
 
 section {
 	width: 650px;
 	height: 550px;
 	float: left;
-	background: green;
+	background: #ffffb3;
+	font-size: 14pt;
 }
 
 aside {
 	width: 310px;
 	height: 550px;
 	float: right;
-	background: blue;
+	background: #ffff99;
 }
 
 footer {
 	height: 50px;
 	clear: both;
 	background: orange;
+	text-align: center;
 }
